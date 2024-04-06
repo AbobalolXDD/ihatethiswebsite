@@ -4,9 +4,10 @@ body {
 }
 
 header {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: ;
+    padding: 15px;
     margin-bottom: 20px;
 }
 
@@ -38,10 +39,10 @@ nav {
 
 h1 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -49,13 +50,15 @@ p {
 }
 
 .info {
+    max-width: 1100px;
+    margin: 0px auto 0px auto;
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
 }
 
 article {
+    min-height: 270px;
     background-color: white;
     padding: 30px;
     width: 400px;
@@ -63,6 +66,7 @@ article {
 }
 
 .article-but {
+    display: block;
     text-decoration: none;
     background-color: #64A8D1;
     color: black;
@@ -72,12 +76,13 @@ article {
 }
 
 footer {
+    display: flex;
     background-color: #64A8D1;
-    padding: ;
+    padding: 15px;
 }
 
 footer a {
-    margin-right: ;
+    margin-right: 15px;
 }
 
 footer p {
